@@ -3,7 +3,7 @@
 # Carte Température
 # Support : https://discord.gg/s6cZ7Swhh7
 #——————————————————
-📍 Requis : vertical stack et mushroom
+📍 Requis : vertical stack et mushroom (via HACS video d'installation : https://is.gd/CmtqM8)
 
 type: custom:vertical-stack-in-card
 cards:
