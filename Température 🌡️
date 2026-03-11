@@ -3,6 +3,8 @@
 # Carte Température
 # Support : https://discord.gg/s6cZ7Swhh7
 #——————————————————
+📍 Requis : vertical stack et mushroom
+
 type: custom:vertical-stack-in-card
 cards:
   - type: custom:mushroom-entity-card
