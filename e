@@ -1,6 +1,13 @@
+#——————————————————
+# Crée par Anas Box modifier par Maxence_Csnt
+# Carte Réservoir d'eau
+# Support : https://discord.gg/s6cZ7Swhh7
+#——————————————————
+📍 Requis : vertical stack et mushroom (via HACS video d'installation : https://is.gd/CmtqM8)
+
 type: custom:mushroom-entity-card
 entity: sensor.water_tank_level
-name: Water Tank
+name: Réservoir d'eau
 tap_action:
   action: more-info
 primary_info: state
