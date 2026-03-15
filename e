@@ -1,0 +1,137 @@
+type: custom:mushroom-entity-card
+entity: sensor.water_tank_level
+name: Water Tank
+tap_action:
+  action: more-info
+primary_info: state
+secondary_info: name
+icon: mdi:water
+layout: vertical
+icon_color: white
+card_mod:
+  style: |
+    ha-card {
+      /* ====== DIMENSIONS ====== */
+      height: 200px !important;
+      --custom-icon-size: 60px;
+      --custom-state-font-size: 20px;   /* Size of the % number */
+      --custom-name-font-size: 14px; 
+      
+      /* ====== LOGIC ====== */
+      {% set level = states(config.entity) | float(0) %}
+
+      /* Colors */
+      {% if level <= 20 %}
+        {% set rgb = '150, 29, 29' %} /* Red */
+      {% else %}
+        {% set rgb = '29, 130, 150' %}  /* Blue */
+      {% endif %}
+
+      --liq-color: rgb({{ rgb }});
+      --liq-color-light: rgba({{ rgb }}, 0.7);
+      --liq-level: {{ level }}%;
+
+      --card-primary-font-size: var(--custom-state-font-size) !important;
+      --card-secondary-font-size: var(--custom-name-font-size) !important;
+      
+      /* Size of the small shapes */
+      --wave-size: 40px; 
+      
+      /* Gradient Body (Solid) */
+      background: linear-gradient(to top, 
+        var(--liq-color) 0%, 
+        var(--liq-color) var(--liq-level), 
+        transparent var(--liq-level), 
+        transparent 100%
+      ) !important;
+
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      z-index: 0;
+
+      border: 1px solid rgba({{ rgb }}, 1);
+    }
+
+    /* --- Animation Layers --- */
+    ha-card::before, ha-card::after {
+      content: "";
+      position: absolute;
+      z-index: 1; /* Low Z-Index so content sits on top */
+
+      height: 30px; 
+      width: 200%; 
+      bottom: var(--liq-level);
+      left: 0;
+
+      background-image: radial-gradient(
+        circle at 50% 100%, 
+        var(--liq-color) 65%, 
+        transparent 66%
+      );
+      
+      background-size: var(--wave-size) 40px;
+      background-repeat: repeat-x;
+      display: {{ 'none' if level <= 0 or level >= 100 else 'block' }};
+      pointer-events: none;
+    }
+
+    /* Front Wave */
+    ha-card::after {
+      background-image: radial-gradient(
+        circle at 50% 100%, 
+        var(--liq-color) 65%, 
+        transparent 66%
+      );
+      animation: scroll-left 10s linear infinite;
+    }
+
+    /* Back Wave */
+     ha-card::before {
+          background-image: radial-gradient(
+            circle at 50% 100%, 
+            var(--liq-color-light) 65%, 
+            transparent 66%
+          );
+          animation: scroll-right 3s linear infinite;
+          bottom: calc(var(--liq-level) + 5px);
+        }
+
+    /* content wrapper */
+    mushroom-card-content {
+      position: relative !important;
+      z-index: 10 !important;
+    }
+
+    /* Icon  */
+    mushroom-shape-icon {
+      position: relative !important;
+      z-index: 11 !important; /* Higher than content wrapper */
+      --icon-size: var(--custom-icon-size) !important;
+    }
+
+    /* Text (Name ,, State) */
+    mushroom-state-info {
+      position: relative !important;
+      z-index: 11 !important;
+      text-shadow: 0px 1px 3px rgba(0,0,0,0.9); 
+    }
+
+    /* icon color */
+    ha-state-icon {
+      color: white !important;
+    }
+
+    /* --- ANIMATIONS --- */
+    @keyframes scroll-left {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(calc(var(--wave-size) * -1)); }
+    }
+
+    @keyframes scroll-right {
+      0% { transform: translateX(calc(var(--wave-size) * -1)); }
+      100% { transform: translateX(0); }
+    }
