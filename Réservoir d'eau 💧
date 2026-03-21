@@ -142,3 +142,7 @@ card_mod:
       0% { transform: translateX(calc(var(--wave-size) * -1)); }
       100% { transform: translateX(0); }
     }
+
+grid_options:
+  columns: 12
+  rows: 1.5
