@@ -242,4 +242,4 @@ card_mod:
       }
 grid_options:
   columns: 12
-  rows: 2.15
+  rows: 1.5
