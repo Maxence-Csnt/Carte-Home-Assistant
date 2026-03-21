@@ -1,0 +1,215 @@
+#——————————————————
+# Crée par Anas Box modifier par Maxence_Csnt
+# Carte Boîte aux lettres
+# Support : https://discord.gg/s6cZ7Swhh7
+#——————————————————
+# 📍 Requis (via HACS video d'installation : https://is.gd/CmtqM8) : vertical stack In Card, Mushroom, Mushroom Themes, card-mod et mini-graph-card 📍
+
+type: custom:vertical-stack-in-card
+cards:
+  - type: custom:mushroom-entity-card
+    entity: input_boolean.mail_arrived
+    name: Mailbox
+    icon: mdi:mailbox
+    secondary_info: none
+    tap_action:
+      action: more-info
+    icon_color: orange
+    primary_info: name
+    card_mod:
+      style:
+        .: |
+          ha-card {
+            /* ========================== */
+            /*  USER CONFIG               */
+            /* ========================== */
+            
+            /* 1. Define ACTIVE State */
+            {% set active_state = 'on' %}
+
+            /* 2. icon size */
+            --set-icon-size: 65px;
+
+            /* 3. Custom Badge TEXT? */
+            {% set active_badge_text = 'YOU\'VE GOT MAIL' %}
+            {% set empty_badge_text = 'NO MAIL' %}
+
+            /* 4. Custom color? (RGB) */
+            {% set color_active = '255, 190, 50' %}   /* Orange */
+            {% set color_empty  = '158, 158, 158' %} /* Grey */
+
+            /* ========================== */
+
+            {% set has_mail = states(config.entity) == active_state %}
+            
+            /* 2. Status & Colors */
+            {% if has_mail %}
+               {% set state = 'mail' %}
+               {% set color = color_active %} 
+               {% set badge = active_badge_text %}
+            {% else %}
+               {% set state = 'empty' %}
+               {% set color = color_empty %} 
+               {% set badge = empty_badge_text %}
+            {% endif %}
+            
+            /* CSS VARS */
+            --mb-color: {{ color }};
+            --mb-badge: "{{ badge }}";
+            
+            /* Animation Selectors */
+            --anim-mail-drop: {{ 'block' if state == 'mail' else 'none' }};
+            --icon-move: {{ 'flag-wave 2s ease-in-out infinite' if state == 'mail' else 'none' }};
+            
+            /* --- CORE CARD STYLING --- */
+            background: var(--card-background-color, #1c1c1c);
+            border-radius: var(--ha-card-border-radius, 12px) !important;
+            
+            /* Keeps the bar inside the rounded corners */
+            overflow: hidden; 
+            
+            transition: all 0.5s ease;
+            position: relative;
+          }
+
+
+
+          /* --- BOTTOM HIGHLIGHT BAR --- */
+          ha-card::after {
+            content: '';
+            position: absolute;
+            bottom: 0; 
+            left: 0;
+            height: 4px; 
+            width: 100%;
+            
+            /* Dynamic Colors based on State */
+            background: rgb(var(--mb-color));
+            box-shadow: 0 0 15px rgb(var(--mb-color));
+            
+            transition: background 0.5s ease, box-shadow 0.5s ease;
+            opacity: 1; /* Always visible now */
+            z-index: 1;
+          }
+        mushroom-shape-icon$: |
+          .shape {
+            background: rgba(var(--mb-color), 0.15) !important;
+            --icon-size: var(--set-icon-size) !important;
+            position: relative;
+            overflow: hidden; /* Hide the letter before it drops in */
+            transition: background 0.3s ease;
+          }
+
+          /* ----------------------*/
+          /* ANIMATION LETTER      */
+          /* --------------------- */
+          .shape::before {
+            content: '';
+            display: var(--anim-mail-drop);
+            position: absolute;
+            
+            /* --- BIGGER ENVELOPE SIZE --- */
+            width: 28px; height: 18px;
+            
+            /* White Envelope Body */
+            background: #fff;
+            border-radius: 3px;
+            
+            /* Center it horizontally */
+            left: calc(50% - 14px);
+            
+            /* The Envelope Flap (Triangle) details */
+            background-image: linear-gradient(135deg, transparent 50%, #ccc 50%), 
+                              linear-gradient(225deg, transparent 50%, #ccc 50%);
+            background-size: 50% 100%;
+            background-repeat: no-repeat;
+            background-position: 0 0, 100% 0;
+            
+            box-shadow: 0 4px 6px rgba(0,0,0,0.4);
+            
+            /* Run Animation */
+            animation: mail-drop 1.5s ease-in-out infinite;
+          }
+
+          /* ------------------------*/
+          /* ANIMATION ICON MOVEMENT */
+          /* ------------------------*/
+          ha-icon {
+            color: rgb(var(--mb-color)) !important;
+            transition: color 0.3s ease;
+            animation: var(--icon-move);
+            z-index: 2; 
+          }
+
+          /* --- KEYFRAMES --- */
+
+          @keyframes mail-drop {
+            0%   { top: -30px; opacity: 0; transform: rotate(-10deg); }
+            30%  { opacity: 1; transform: rotate(0deg); }
+            60%  { top: 50%; opacity: 1; transform: rotate(5deg); }
+            100% { top: 65%; opacity: 0; transform: rotate(0deg); }
+          }
+
+          @keyframes flag-wave {
+            0%, 100% { transform: rotate(0deg); }
+            25%      { transform: rotate(-10deg); }
+            75%      { transform: rotate(5deg); }
+          }
+  - type: custom:mushroom-chips-card
+    alignment: center
+    chips:
+      - type: template
+        entity: input_boolean.mail_arrived
+        content: |-
+          {% if is_state(entity, 'on') %}
+            ARRIVED AT {{ as_timestamp(states[entity].last_changed) | timestamp_custom('%H:%M') }}
+          {% else %}
+            NO MAIL
+          {% endif %}
+        icon: >-
+          {{ 'mdi:mailbox-up' if is_state(entity, 'on') else
+          'mdi:mailbox-outline' }}
+        icon_color: "{{ 'orange' if is_state(entity, 'on') else 'grey' }}"
+        tap_action:
+          action: call-service
+          service: input_boolean.turn_off
+          target:
+            entity_id: input_boolean.mail_arrived
+        card_mod:
+          style: |
+            ha-card {
+              transition: all 0.3s ease;
+              {% if is_state(config.entity, 'on') %}
+                /* --- MAIL ARRIVED --- */
+                background: rgba(255, 165, 0, 0.15) !important;
+                border: 1px solid rgba(255, 165, 0, 0.5) !important;
+                animation: shake 2s ease-in-out infinite;
+              {% else %}
+                /* --- NO MAIL --- */
+                background: transparent !important;
+                border: 1px solid rgba(158, 158, 158, 0.4) !important;
+              {% endif %}
+            }
+
+            @keyframes shake {
+              0%, 100% { transform: rotate(0deg); }
+              5%       { transform: rotate(5deg); }
+              10%      { transform: rotate(-5deg); }
+              15%      { transform: rotate(5deg); }
+              20%      { transform: rotate(0deg); }
+            }
+    card_mod:
+      style:
+        .: |
+          ha-card {
+              --chip-font-size: 11px;
+              --chip-border-radius: 10px;
+              --chip-height: 30px; 
+              margin: 8px 12px; 
+              position: absolute;
+              top: 15px;
+              right: 5px;
+              }
+grid_options:
+  columns: 12
+  rows: 1.5
