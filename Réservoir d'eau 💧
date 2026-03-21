@@ -3,7 +3,7 @@
 # Carte Réservoir d'eau
 # Support : https://discord.gg/s6cZ7Swhh7
 #——————————————————
-# **📍 Requis (via HACS video d'installation : https://is.gd/CmtqM8) : vertical stack In Card, Mushroom, Mushroom Themes et card-mod 📍**
+# 📍 Requis (via HACS video d'installation : https://is.gd/CmtqM8) : vertical stack In Card, Mushroom, Mushroom Themes et card-mod 📍
 
 type: custom:mushroom-entity-card
 entity: sensor.water_tank_level
