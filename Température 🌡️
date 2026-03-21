@@ -348,3 +348,6 @@ cards:
               bottom: -10px;
               right: -10px;
               }
+grid_options:
+  columns: 12
+  rows: 1.5
