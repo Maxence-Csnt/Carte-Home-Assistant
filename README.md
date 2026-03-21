@@ -24,6 +24,6 @@ background: #1C1C1C !important;
 
 
 
-Réservoir d'eau 💧:
+[Réservoir d'eau 💧](https://github.com/Maxence-Csnt/Carte-Home-Assistant/blob/main/R%C3%A9servoir%20d'eau%20%F0%9F%92%A7) :
 
 <img width="496" height="204" alt="image" src="https://github.com/user-attachments/assets/e2c3318a-6b97-4257-bf00-7eb7c3593bc4" />
