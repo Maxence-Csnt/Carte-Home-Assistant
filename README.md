@@ -18,7 +18,7 @@ background: #1C1C1C !important;
 ```
 <hr>
 
-Température 🌡️ :
+[Température 🌡️](https://github.com/Maxence-Csnt/Carte-Home-Assistant/blob/main/Temp%C3%A9rature%20%F0%9F%8C%A1%EF%B8%8F) :
 
 <img width="506" height="136" alt="image" src="https://github.com/user-attachments/assets/749ef5c6-6a27-4e1d-8671-e3863ec7a2dd" />
 
