@@ -9,7 +9,7 @@ type: custom:vertical-stack-in-card
 cards:
   - type: custom:mushroom-entity-card
     entity: input_boolean.mail_arrived
-    name: Mailbox
+    name: Boite aux lettres
     icon: mdi:mailbox
     secondary_info: none
     tap_action:
