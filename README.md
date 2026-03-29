@@ -24,13 +24,11 @@ background: #1C1C1C !important;
 
 
 
-
 [Température 🌡️ (Graphique)](https://github.com/Maxence-Csnt/Carte-Home-Assistant/blob/main/Temp%C3%A9rature%20%F0%9F%8C%A1%EF%B8%8F) :
 
 <img width="506" height="136" alt="image" src="https://github.com/user-attachments/assets/749ef5c6-6a27-4e1d-8671-e3863ec7a2dd" />
 
 
-<img width="459" height="553" alt="Capture" src="https://github.com/user-attachments/assets/837abc89-a77a-4bbc-948c-6278d35d0a29" />
 
 [Réservoir d'eau 💧](https://github.com/Maxence-Csnt/Carte-Home-Assistant/blob/main/R%C3%A9servoir%20d'eau%20%F0%9F%92%A7) :
 
