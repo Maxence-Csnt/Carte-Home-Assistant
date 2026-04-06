@@ -1,4 +1,19 @@
 > [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+
+> [!NOTE]
 > Si vous utilisez le type d'affichage **Sections**, vous devrez peut-être définir la valeur `rows` à environ `1,5` pour la carte,
 > sinon, la carte pourrait paraître déformée.
 > (À UTILISER UNIQUEMENT EN CAS DE PROBLÈME).
