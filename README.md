@@ -1,4 +1,4 @@
-> [!Aide]
+> [!WARNING] Aide
 > Pour toute assistant Merci d'aller sur le serveur discord de Glooob Domo
 
 
