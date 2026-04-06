@@ -3,6 +3,7 @@
 > https://discord.gg/su8UQRbVz6
 
 
+ 
 > [!NOTE]
 > Si vous utilisez le type d'affichage **Sections**, vous devrez peut-être définir la valeur `rows` à environ `1,5` pour la carte,
 > sinon, la carte pourrait paraître déformée.
