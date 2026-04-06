@@ -1,17 +1,6 @@
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
+> [!Aide]
+> Pour toute assistant Merci d'aller sur le serveur discord de Glooob Domo
 
-> [!TIP]
-> Helpful advice for doing things better or more easily.
-
-> [!IMPORTANT]
-> Key information users need to know to achieve their goal.
-
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
-
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
 
 > [!NOTE]
 > Si vous utilisez le type d'affichage **Sections**, vous devrez peut-être définir la valeur `rows` à environ `1,5` pour la carte,
