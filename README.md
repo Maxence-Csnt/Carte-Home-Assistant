@@ -1,8 +1,6 @@
 > [!WARNING]
-> Pour toute assistant Merci d'aller sur le serveur discord de Glooob Domo
-
-> [!AIDE]
-> Pour toute assistant Merci d'aller sur le serveur discord de Glooob Domo
+> Besoin d'un coup de main ? Rejoignez-nous directement sur le Discord de Glooob Domo !
+> https://discord.gg/su8UQRbVz6
 
 
 > [!NOTE]
