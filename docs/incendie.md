@@ -1,6 +1,6 @@
 # Carte Incendie 🔥
 
-Voici le code à copier dans ton tableau de bord Home Assistant :
+Voici le code à copier dans ton automatisation Home Assistant :
 
 ```yaml
 #——————————————————
@@ -99,3 +99,4 @@ custom_fields:
           - color: white
           - font-weight: bold
           - font-size: 14px
+```
