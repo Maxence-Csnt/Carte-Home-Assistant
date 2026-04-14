@@ -17,9 +17,10 @@ plugins:
 
 nav:
   - Accueil: index.md
-  - 🛠️ Automatisation:
+  - 🛠️ Automatisation: 
+      - Présentation: automatisation.md
       - Incendie 🔥: incendie.md
-      - Boîte aux lettres 📬: boite-aux-lettres.md
-  - 📊 Dashboard:
+  - 📊 Dashboard: 
+      - Présentation: dashboard.md
       - Humidité 💦: humidite.md
       - Boîte aux lettres 📬: boite-aux-lettres.md
