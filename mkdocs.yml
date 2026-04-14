@@ -19,6 +19,7 @@ nav:
   - Accueil: index.md
   - 🛠️ Automatisation:
       - Incendie 🔥: incendie.md
+      - Boîte aux lettres 📬: boite-aux-lettres.md
   - 📊 Dashboard:
       - Humidité 💦: humidite.md
       - Boîte aux lettres 📬: boite-aux-lettres.md
