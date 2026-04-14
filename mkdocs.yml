@@ -17,8 +17,8 @@ plugins:
 
 nav:
   - Accueil: index.md
-  - 🛠️ Automatisation:
-      - Incendie 🔥: incendie.md
   - 📊 Dashboard:
       - Humidité 💦: humidite.md
       - Boîte aux lettres 📬: boite-aux-lettres.md
+  - 🛠️ Automatisation:
+      - Incendie 🔥: incendie.md
