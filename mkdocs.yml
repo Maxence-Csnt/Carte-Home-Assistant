@@ -1,24 +1,24 @@
-site_name: Mes Cartes Home Assistant
+site_name: Mes Cartes HA 🏠
+site_url: https://maxence-csnt.github.io/Carte-Home-Assistant/
+use_directory_urls: false
+
 theme:
   name: material
+  language: fr
   palette:
     scheme: slate
     primary: indigo
   features:
     - navigation.tabs
-
-markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
+    - content.code.copy
 
 plugins:
   - search
 
 nav:
   - Accueil: index.md
-  - Automatisation:
+  - 🛠️ Automatisation:
       - Incendie 🔥: incendie.md
-  - Dashboard:
+  - 📊 Dashboard:
       - Humidité 💦: humidite.md
       - Boîte aux lettres 📬: boite-aux-lettres.md
