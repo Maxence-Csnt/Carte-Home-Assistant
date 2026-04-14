@@ -10,15 +10,15 @@ theme:
     primary: indigo
   features:
     - navigation.tabs
-    - content.code.copy
+    - content.code.copy # Ajoute le bouton "Copier" sur ton code !
 
 plugins:
   - search
 
 nav:
   - Accueil: index.md
+  - 🛠️ Automatisation:
+      - Incendie 🔥: incendie.md
   - 📊 Dashboard:
       - Humidité 💦: humidite.md
       - Boîte aux lettres 📬: boite-aux-lettres.md
-  - 🛠️ Automatisation:
-      - Incendie 🔥: incendie.md
