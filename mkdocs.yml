@@ -15,4 +15,6 @@ markdown_extensions:
 nav:
   - Accueil: index.md
   - Automatisations: Automatisation.md
-      - Incendie: Incendie.md
+      - Incendie: incendie.md
+  - Dashboard:
+      - boite aux lettre.md
