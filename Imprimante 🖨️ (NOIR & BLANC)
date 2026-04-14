@@ -1,3 +1,10 @@
+#——————————————————
+# Crée par Anas Box modifier par Maxence_Csnt
+# Carte Imprimante (NOIR & BLANC)
+# Support : https://discord.gg/s6cZ7Swhh7
+#——————————————————
+# 📍 Requis (via HACS video d'installation : https://is.gd/CmtqM8) : button-card 📍
+
 type: custom:mushroom-entity-card
 entity: sensor.brother_printer
 name: Imprimante
