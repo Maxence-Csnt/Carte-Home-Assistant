@@ -1,3 +1,8 @@
+# Carte Boite aux lettres 📬
+
+Voici le code à copier dans ton dashboard Home Assistant :
+
+```yaml
 #——————————————————
 # Crée par Anas Box modifier par Maxence_Csnt
 # Carte Boîte aux lettres
@@ -213,3 +218,4 @@ cards:
 grid_options:
   columns: 12
   rows: 1.5
+```
