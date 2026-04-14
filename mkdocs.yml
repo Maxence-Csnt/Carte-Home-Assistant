@@ -1,0 +1,12 @@
+site_name: Mes Cartes Home Assistant
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: indigo
+  features:
+    - navigation.tabs
+
+nav:
+  - Accueil: index.md
+  - Automatisations: Automatisation.md
