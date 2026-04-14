@@ -10,7 +10,7 @@ theme:
     primary: indigo
   features:
     - navigation.tabs
-    - content.code.copy # Ajoute le bouton "Copier" sur ton code !
+    - content.code.copy
 
 plugins:
   - search
