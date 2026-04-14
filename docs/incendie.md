@@ -1,3 +1,8 @@
+# Carte Incendie 🔥
+
+Voici le code à copier dans ton tableau de bord Home Assistant :
+
+```yaml
 #——————————————————
 # Crée par Maxence_Csnt
 # Carte Incendie
