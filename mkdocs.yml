@@ -10,3 +10,8 @@ theme:
 nav:
   - Accueil: index.md
   - Automatisations: Automatisation.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
