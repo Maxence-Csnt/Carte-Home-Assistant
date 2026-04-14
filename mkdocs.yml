@@ -14,7 +14,8 @@ markdown_extensions:
 
 nav:
   - Accueil: index.md
-  - Automatisations: Automatisation.md
-      - Incendie: incendie.md
+  - Automatisation:
+      - Incendie 🔥: incendie.md
   - Dashboard:
-      - boite aux lettre.md
+      - Humidité 💦: humidite.md
+      - Boîte aux lettres 📬: boite-aux-lettres.md
