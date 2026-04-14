@@ -11,7 +11,9 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
-  - search  # <-- C'est cette ligne qui active la barre de recherche !
+
+plugins:
+  - search
 
 nav:
   - Accueil: index.md
