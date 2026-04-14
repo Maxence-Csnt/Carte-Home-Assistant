@@ -10,6 +10,8 @@ theme:
     primary: indigo
   features:
     - navigation.tabs
+    - navigation.sections # Garde les titres de sections visibles
+    - navigation.expand   # Garde les menus ouverts par défaut
     - content.code.copy
 
 plugins:
