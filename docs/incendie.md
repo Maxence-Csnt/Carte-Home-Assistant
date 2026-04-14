@@ -1,5 +1,7 @@
 # Carte Incendie 🔥
 
+![Aperçu de la carte](images/rendu_incendie.png)
+
 Voici le code à copier dans ton automatisation Home Assistant :
 
 ```yaml
