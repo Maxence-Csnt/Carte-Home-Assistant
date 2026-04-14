@@ -1,6 +1,5 @@
-> [!WARNING]
-> Besoin d'un coup de main ? Rejoignez-nous directement sur le Discord de Glooob Domo !
-> https://discord.gg/su8UQRbVz6
+!!! warning "Besoin d'un coup de main ?"
+    Rejoignez-nous directement sur le Discord de Glooob Domo ! https://discord.gg/su8UQRbVz6
 
 
  
