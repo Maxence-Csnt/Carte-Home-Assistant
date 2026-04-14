@@ -1,6 +1,6 @@
 # Carte Incendie 🔥
 
-![Aperçu de la carte](images/rendu_incendie.png)
+![Aperçu de la carte](images/rendu_incendie.PNG)
 
 Voici le code à copier dans ton automatisation Home Assistant :
 
