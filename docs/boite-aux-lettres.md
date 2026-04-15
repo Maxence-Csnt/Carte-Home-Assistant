@@ -10,7 +10,6 @@ Voici le code à copier dans ton dashboard Home Assistant :
 # Carte Boîte aux lettres
 # Support : https://discord.gg/s6cZ7Swhh7
 #——————————————————
-# 📍 Requis (via HACS video d'installation : https://is.gd/CmtqM8) : vertical stack In Card, Mushroom, Mushroom Themes, card-mod et mini-graph-card 📍
 
 type: custom:vertical-stack-in-card
 cards:
