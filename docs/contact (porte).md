@@ -10,7 +10,7 @@ Voici le code à copier dans ton dashboard Home Assistant :
 # Support : https://discord.gg/s6cZ7Swhh7
 #——————————————————
 
-  type: custom:mushroom-entity-card
+type: custom:mushroom-entity-card
 entity: binary_sensor.porte_d_entree_contact
 tap_action:
   action: more-info
