@@ -1,3 +1,20 @@
+/* Style des boîtes d'alerte (Admonitions) en mode Apple Glass */
+.admonition {
+    background-color: rgba(255, 255, 255, 0.05) !important; /* Très transparent */
+    backdrop-filter: blur(15px) saturate(170%) !important; /* Flou liquide */
+    -webkit-backdrop-filter: blur(15px) saturate(170%) !important;
+    border: 1px solid rgba(255, 255, 255, 0.15) !important; /* Bordure fine brillante */
+    border-radius: 15px !important;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Couleur du titre des boîtes */
+.admonition-title {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+    font-weight: bold !important;
+}
+
 /* --- POSITIONNEMENT DANS LA ZONE BLEUE --- */
 
 /* On cache la barre d'annonce originale pour la replacer */
