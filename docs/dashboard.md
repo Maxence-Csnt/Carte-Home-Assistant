@@ -9,7 +9,7 @@ Bienvenue dans l'espace dédié aux designs de cartes ! Vous trouverez ici les c
 !!! info "Navigation"
     Sélectionnez une carte ci-dessous pour accéder au code YAML et aux instructions d'installation.
 
-| Catégorie | Description | Lien |
+| Catégorie | Lien 1 | Lien 2 (Si disponible) |
 | :--- | :--- | :--- |
 | **Humidité 💦** | [Accéder Mode Standard ➡️](humidite.md) | [Accéder Mode Graphique 📈](humidite-graphique.md) |
 | **Température 🌡️** | [Accéder Mode Standard ➡️](temperature.md) | [Accéder Mode Graphique 📈](temperature-graphique.md) |
