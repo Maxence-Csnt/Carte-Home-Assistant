@@ -50,4 +50,5 @@ nav:
 
 # 3. Le bandeau d'annonce (IMPORTANT : bien aligné à gauche)
 extra:
-  announcement: "🚧 **SITE EN COURS DE CRÉATION** : Merci de votre patience pendant les travaux ! 🏗️"
+  announcement: >
+    🚧 **SITE EN COURS DE CRÉATION**
