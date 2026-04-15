@@ -19,6 +19,7 @@ Bienvenue dans l'espace dédié aux designs de cartes ! Vous trouverez ici les c
 | **Contact 🚪 (Porte)** | [Accéder ➡️](contact (porte).md) | - |
 | **Détecteur de mouvement 💨** | [Accéder ➡️](detecteur-de-mouvement.md) | - |
 | **Éclairement ☀️** | [Accéder ➡️](eclairement.md) | - |
+| **Sonnette 🔔** | [Accéder ➡️](sonnette.md) | - |
 
 ---
 
