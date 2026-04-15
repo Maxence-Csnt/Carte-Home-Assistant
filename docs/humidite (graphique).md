@@ -1,3 +1,8 @@
+# Carte Humidité 💦 (Graphique)
+
+Voici le code à copier dans ton dashboard Home Assistant :
+
+```yaml
 #——————————————————
 # Crée par Anas Box modifier par Maxence_Csnt
 # Carte Humidité avec graphique
