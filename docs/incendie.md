@@ -1,6 +1,6 @@
 # Carte Incendie 🔥
 
-![Aperçu de la carte](images/rendu_incendie.PNG)
+<img width="465" height="552" alt="Incendie" src="https://github.com/user-attachments/assets/567942fb-a63d-4282-ba88-02b3d900fbd8" />
 
 Voici le code à copier dans ton automatisation Home Assistant :
 
