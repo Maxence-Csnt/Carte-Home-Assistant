@@ -16,6 +16,7 @@ Bienvenue dans l'espace dédié aux designs de cartes ! Vous trouverez ici les c
 | **Imprimante 🖨️** | [Couleurs 🌈](imprimante-couleurs.md) | [Noir & Blanc 👤](imprimante-nb.md) |
 | **Boîte aux lettres 📬** | [Accéder ➡️](boite-aux-lettres.md) | - |
 | **Réservoir d'eau 💧** | [Accéder ➡️](reservoir.md) | - |
+| **Contact 🚪 (Porte)** | [Accéder ➡️](contact (porte).md) | - |
 
 ---
 
