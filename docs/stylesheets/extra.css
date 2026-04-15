@@ -1,3 +1,26 @@
+/* --- POSITIONNEMENT DANS LA ZONE BLEUE --- */
+
+/* On cache la barre d'annonce originale pour la replacer */
+.md-announce {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+/* On injecte le texte de l'annonce dans le header (zone entourée) */
+.md-header__topic::after {
+    content: "🚧 Site en cours de création 🏗️";
+    margin-left: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 4px 12px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
 /* --- STYLE ULTRA LIQUID GLASS (APPLE EL CAPITAN / IOS) --- */
 
 :root {
