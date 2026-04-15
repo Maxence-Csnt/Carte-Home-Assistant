@@ -10,7 +10,6 @@ Voici le code à copier dans ton dashboard Home Assistant :
 # Carte Température
 # Support : https://discord.gg/s6cZ7Swhh7
 #——————————————————
-# 📍 Requis (via HACS video d'installation : https://is.gd/CmtqM8) : vertical stack In Card, Mushroom, Mushroom Themes et card-mod 📍
 
 type: custom:mushroom-entity-card
 entity: sensor.livingroom_temperature
