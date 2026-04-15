@@ -15,7 +15,7 @@ entity: sensor.livingroom_humidity
 tap_action:
   action: more-info
 icon: mdi:water-percent
-name: Living room humidity
+name: Humidité dans le salon
 primary_info: state
 secondary_info: name
 card_mod:
