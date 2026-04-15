@@ -1,6 +1,6 @@
 # Carte Imprimante 🖨️ (NOIR & BLANC)
 
-
+<img width="462" height="89" alt="Imprimante Noir et Blanc" src="https://github.com/user-attachments/assets/d0acc9ec-59cc-49ef-a4fd-85df6d60063d" />
 
 Voici le code à copier dans ton dashboard Home Assistant :
 
