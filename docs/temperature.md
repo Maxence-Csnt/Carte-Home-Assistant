@@ -1,5 +1,7 @@
 # Carte Température 🌡️
 
+<img width="412" height="83" alt="Temperature-removebg-preview" src="https://github.com/user-attachments/assets/7ddfa5b5-16b8-47b3-9992-94b7705ae3ef" />
+
 Voici le code à copier dans ton dashboard Home Assistant :
 
 ```yaml
