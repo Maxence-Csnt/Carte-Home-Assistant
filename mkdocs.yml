@@ -24,6 +24,8 @@ markdown_extensions:
 
 nav:
   - Accueil: index.md
+      - 📊 Dashboard: dashboard.md
+      - 🛠️ Automatisation: automatisation.md
   - 📊 Dashboard: 
       - Présentation: dashboard.md
       - Humidité 💦 (Graphique): humidite (graphique).md
