@@ -1,11 +1,30 @@
-# 📊 Dashboard 
+# 📊 Dashboards
 
-Bienvenue ! Voici les cartes disponibles dans cette section. Cliquez sur une icône pour voir le code :
+Bienvenue dans l'espace dédié aux designs de cartes ! Vous trouverez ici les cartes pour rendre votre interface Home Assistant plus esthétique et fonctionnelle.
 
-| Section | Lien direct |
-| :--- | :--- |
-| **Humidité** | [Voir la carte 💦](humidite.md) |
-| **Boîte aux lettres** | [Voir la carte 📬](boite-aux-lettres.md) |
+---
 
-!!! tip "Astuce"
-    Utilise la barre de recherche en haut à droite 🔍 pour trouver rapidement une entité !
+### 📂 Parcourir les catégories
+
+!!! info "Navigation"
+    Sélectionnez une carte ci-dessous pour accéder au code YAML et aux instructions d'installation.
+
+| Catégorie | Description | Lien |
+| :--- | :--- | :--- |
+| **Humidité 💦** | [Accéder Mode Standard ➡️](humidite.md) | [Accéder Mode Graphique 📈](humidite-graphique.md) |
+| **Température 🌡️** | [Accéder Mode Standard ➡️](temperature.md) | [Accéder Mode Graphique 📈](temperature-graphique.md) |
+| **Imprimante 🖨️** | [Couleurs 🌈](imprimante-couleurs.md) | [Noir & Blanc 👤](imprimante-nb.md) |
+| **Boîte aux lettres 📬** | [Accéder ➡️](boite-aux-lettres.md) | - |
+| **Réservoir d'eau 💧** | [Accéder ➡️](reservoir.md) | - |
+
+---
+
+### 🛠️ Prérequis Généraux
+Pour utiliser ces cartes, assurez-vous d'avoir installé les éléments suivants via **HACS** :
+
+* [**button-card**](https://github.com/custom-cards/button-card) (Indispensable pour le design)
+* [**card-mod**](https://github.com/thomasloven/lovelace-card-mod) (Pour les personnalisations CSS)
+* [**Mushroom Cards**](https://github.com/piitaya/lovelace-mushroom) (Pour les icônes et le style épuré)
+
+!!! tip "Conseil d'installation"
+    **Toutes mes cartes sont compatible en mode sombre comme en mode clair.** 
