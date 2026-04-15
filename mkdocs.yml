@@ -30,7 +30,9 @@ nav:
       - Humidité 💦: humidite.md
       - Boîte aux lettres 📬: boite-aux-lettres.md
       - Température 🌡️ (Graphique): temperature (graphique).md
-      - Température 🌡️: temperature.md  
+      - Température 🌡️: temperature.md 
+      - Imprimante 🖨️ (NOIR & BLANC): imprimante (noir & blanc).md
+      - Imprimante 🖨️ (COULEURS): imprimante (couleurs).md
   - 🛠️ Automatisation: 
       - Présentation: automatisation.md
       - Incendie 🔥: incendie.md
