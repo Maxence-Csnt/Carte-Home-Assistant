@@ -10,6 +10,7 @@ Voici le code à copier dans ton dashboard Home Assistant :
 # Carte Éclairement
 # Support : https://discord.gg/s6cZ7Swhh7
 #——————————————————
+
 type: custom:mushroom-entity-card
 entity: sensor.detecteur_de_mouvement_illuminance
 tap_action:
