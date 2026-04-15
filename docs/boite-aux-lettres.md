@@ -1,5 +1,7 @@
 # Carte Boite aux lettres 📬
 
+<img width="524" height="106" alt="Boite aux lettres" src="https://github.com/user-attachments/assets/5c0ff509-d2b0-45c2-b766-f74614e9a665" />
+
 Voici le code à copier dans ton dashboard Home Assistant :
 
 ```yaml
