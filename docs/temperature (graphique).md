@@ -1,3 +1,8 @@
+# Carte Température 🌡️ (Graphique)
+
+Voici le code à copier dans ton dashboard Home Assistant :
+
+```yaml
 #——————————————————
 # Crée par Anas Box modifier par Maxence_Csnt
 # Carte Température avec graphique
@@ -351,3 +356,4 @@ cards:
 grid_options:
   columns: 12
   rows: 2.15
+```
