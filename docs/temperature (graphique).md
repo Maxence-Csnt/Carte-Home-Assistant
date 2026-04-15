@@ -1,6 +1,6 @@
 # Carte Température 🌡️ (Graphique)
 
-<img width="570" height="163" alt="Temperature_Graphique-removebg-preview" src="https://github.com/user-attachments/assets/5bd950a2-09b3-494b-bb64-7fa10a377db7" />
+<img width="517" height="152" alt="Temperature Graphique" src="https://github.com/user-attachments/assets/66720750-bb47-4b53-b961-c06e3176a326" />
 
 Voici le code à copier dans ton dashboard Home Assistant :
 
