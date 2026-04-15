@@ -1,3 +1,10 @@
+# Carte Réservoir d'eau 💧
+
+
+
+Voici le code à copier dans ton dashboard Home Assistant :
+
+```yaml
 #——————————————————
 # Crée par Anas Box modifier par Maxence_Csnt
 # Carte Réservoir d'eau
@@ -146,3 +153,4 @@ card_mod:
 grid_options:
   columns: 12
   rows: 1.5
+```
