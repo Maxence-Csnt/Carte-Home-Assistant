@@ -1,3 +1,10 @@
+# Carte Imprimante 🖨️ (NOIR & BLANC)
+
+
+
+Voici le code à copier dans ton dashboard Home Assistant :
+
+```yaml
 #——————————————————
 # Crée par Anas Box modifier par Maxence_Csnt
 # Carte Imprimante (NOIR & BLANC)
@@ -280,3 +287,4 @@ card_mod:
         0%, 100% { transform: scale(1); opacity: 1; }
         50% { transform: scale(0.96); opacity: 0.9; }
       }
+```
