@@ -1,28 +1,25 @@
 !!! warning "Besoin d'un coup de main ?"
-    Rejoignez-nous directement sur le Discord de **Glooob Domo** !  
-    [**Clique ici pour rejoindre le Discord**](https://discord.gg/8w5kVPHeEY) 💬
+    Rejoignez-nous directement sur le Discord de Glooob Domo !  
+    [Clique ici pour rejoindre le Discord](https://discord.gg/8w5kVPHeEY)
 
 ---
 
 !!! note "Affichage en mode Sections"
-    Si vous utilisez le type d'affichage **Sections**, vous devrez peut-être définir la valeur `rows` à environ `1.5` pour la carte. Sans cela, la carte pourrait paraître déformée.
+    Si vous utilisez le type d'affichage **Sections**, vous devrez peut-être définir la valeur `rows` à environ `1.5` pour la carte.
     
-    *(À utiliser uniquement en cas de problème)*.
-
     ```yaml
     grid_options:
       rows: 1.5
     ```
 
-!!! tip "Personnalisation des couleurs (Mode Clair/Sombre)"
-    Vous souhaitez modifier la couleur des cartes et du texte ? Ajoutez ce bloc dans la partie `ha-card` de votre code et modifiez les valeurs selon vos envies (rgb, hex, etc.).
+!!! tip "Personnalisation des couleurs"
+    Ajoutez ce bloc dans la partie `ha-card` :
 
     ```css
     background: #1C1C1C !important;
     --card-primary-color: white !important;
     --card-secondary-color: white !important;
     ```
-
 ---
 
 [Incendie 🔥](https://github.com/Maxence-Csnt/Carte-Home-Assistant/blob/main/Incendie%20%F0%9F%94%A5) :
