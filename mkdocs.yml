@@ -24,13 +24,13 @@ markdown_extensions:
 
 nav:
   - Accueil: index.md
-  - 🛠️ Automatisation: 
-      - Présentation: automatisation.md
-      - Incendie 🔥: incendie.md
   - 📊 Dashboard: 
       - Présentation: dashboard.md
       - Humidité 💦 (Graphique): humidite (graphique).md
       - Humidité 💦: humidite.md
       - Boîte aux lettres 📬: boite-aux-lettres.md
       - Température 🌡️ (Graphique): temperature (graphique).md
-      - Température 🌡️: temperature.md
+      - Température 🌡️: temperature.md  
+  - 🛠️ Automatisation: 
+      - Présentation: automatisation.md
+      - Incendie 🔥: incendie.md
