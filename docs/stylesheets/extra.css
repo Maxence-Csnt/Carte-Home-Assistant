@@ -1,0 +1,60 @@
+/* --- STYLE LIQUID GLASS (APPLE STYLE) --- */
+
+:root {
+    /* Couleurs transparentes typiques d'Apple */
+    --md-primary-fg-color: rgba(63, 81, 181, 0.8) !important;
+    --glass-bg: rgba(255, 255, 255, 0.05);
+    --glass-border: rgba(255, 255, 255, 0.1);
+}
+
+/* Effet de flou sur la barre de navigation (Header) */
+.md-header {
+    background-color: rgba(26, 26, 26, 0.7) !important;
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border-bottom: 1px solid var(--glass-border);
+}
+
+/* Effet sur les onglets du haut */
+.md-tabs {
+    background-color: rgba(30, 30, 30, 0.4) !important;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+}
+
+/* Style des cartes de code et des boîtes (Admonitions) */
+.admonition, .md-content__inner code, .md-typeset pre {
+    background-color: var(--glass-bg) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid var(--glass-border) !important;
+    border-radius: 15px !important;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* Rendre le menu de gauche et droite plus "aérien" */
+.md-nav__link {
+    border-radius: 8px;
+    margin: 2px 0;
+    transition: all 0.3s;
+}
+
+.md-nav__link:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    color: #fff !important;
+}
+
+/* Bandeau d'annonce (le bandeau 🚧) */
+.md-announce {
+    background-color: rgba(92, 107, 192, 0.2) !important;
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--glass-border);
+    font-weight: bold;
+}
+
+/* Corps de page */
+body {
+    background-attachment: fixed;
+    /* On ajoute un léger reflet global */
+    background-image: radial-gradient(circle at top right, rgba(63, 81, 181, 0.05), transparent);
+}
