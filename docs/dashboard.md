@@ -29,6 +29,7 @@ Pour utiliser ces cartes, assurez-vous d'avoir installé les éléments suivants
 * [**button-card**](https://github.com/custom-cards/button-card) (Indispensable pour le design)
 * [**card-mod**](https://github.com/thomasloven/lovelace-card-mod) (Pour les personnalisations CSS)
 * [**Mushroom Cards**](https://github.com/piitaya/lovelace-mushroom) (Pour les icônes et le style épuré)
+* [**vertical stack In Card**](https://github.com/ofekashery/vertical-stack-in-card)
 
 !!! tip "TIP"
     **Toutes les cartes sont compatible en mode sombre comme en mode clair (Sauf indication contraire).** 
