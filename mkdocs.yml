@@ -17,6 +17,11 @@ theme:
 plugins:
   - search
 
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
 nav:
   - Accueil: index.md
   - 🛠️ Automatisation: 
