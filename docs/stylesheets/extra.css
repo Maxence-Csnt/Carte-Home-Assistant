@@ -1,27 +1,42 @@
-/* Ajoute le badge de maintenance uniquement dans le header */
-.md-header__ellipsis::after {
-    content: "🚧 Site en cours";
-    display: inline-block;
-    margin-left: 15px;
-    font-size: 0.7rem;
-    font-weight: bold;
-    color: rgba(255, 255, 255, 0.9);
-    
-    /* Style Liquide Glace */
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    padding: 3px 12px;
-    border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    vertical-align: middle;
-}
+/* --- ALIGNEMENT PARFAIT DU BADGE APPLE --- */
 
-/* On s'assure que le titre et le badge sont bien alignés */
-.md-header__topic {
+/* On force le titre à être sur une ligne flexible */
+.md-header__title .md-header__ellipsis {
     display: flex !important;
     align-items: center;
+    overflow: visible !important;
 }
+
+/* Le Badge Liquid Glass */
+.md-header__title .md-header__ellipsis::after {
+    content: "🚧 Site en cours";
+    display: inline-block;
+    margin-left: 15px; /* Espace entre le titre et le badge */
+    white-space: nowrap; /* Empêche le texte de revenir à la ligne */
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #ffffff;
+    
+    /* Effet Glace Apple Booster */
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(12px) saturate(180%);
+    -webkit-backdrop-filter: blur(12px) saturate(180%);
+    padding: 4px 12px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* --- STYLE DES BOITES (ADMONITIONS) --- */
+/* Pour que tes blocs sur l'accueil soient aussi en verre */
+.admonition {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    backdrop-filter: blur(20px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 15px !important;
+}
+
+
 /* --- STYLE ULTRA LIQUID GLASS (APPLE EL CAPITAN / IOS) --- */
 
 :root {
