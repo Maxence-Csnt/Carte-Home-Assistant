@@ -1,4 +1,4 @@
-# Carte Réservoir d'eau 💧
+# Carte Réservoir à eau 💧
 
 <img width="502" height="215" alt="Réservoir d&#39;eau" src="https://github.com/user-attachments/assets/65afa5c7-efb7-4c4a-b9eb-bf2211e2e3ec" />
 
@@ -7,7 +7,7 @@ Voici le code à copier dans ton dashboard Home Assistant :
 ```yaml
 #——————————————————
 # Crée par Anas Box modifier par Maxence_Csnt
-# Carte Réservoir d'eau
+# Carte Réservoir à eau
 # Support : https://discord.gg/s6cZ7Swhh7
 #——————————————————
 # 📍 Requis (via HACS video d'installation : https://is.gd/CmtqM8) : vertical stack In Card, Mushroom, Mushroom Themes et card-mod 📍
