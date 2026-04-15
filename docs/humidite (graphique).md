@@ -1,5 +1,7 @@
 # Carte Humidité 💦 (Graphique)
 
+<img width="516" height="142" alt="Humidité Graphique" src="https://github.com/user-attachments/assets/a77ebd74-1393-4337-8eba-38a47c71ff8b" />
+
 Voici le code à copier dans ton dashboard Home Assistant :
 
 ```yaml
