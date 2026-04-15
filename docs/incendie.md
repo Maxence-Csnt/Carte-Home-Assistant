@@ -10,7 +10,7 @@ Voici le code à copier dans ton automatisation Home Assistant :
 # Carte Incendie
 # Support : https://discord.gg/s6cZ7Swhh7
 #——————————————————
-# 📍 Requis (via HACS video d'installation : https://is.gd/CmtqM8) : button-card et browser_mod 📍
+# 📍 Requis (via HACS): browser_mod 📍
 
 type: custom:button-card
 entity: input_boolean.alarme_active
