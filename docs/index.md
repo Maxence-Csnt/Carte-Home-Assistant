@@ -1,27 +1,29 @@
 !!! warning "Besoin d'un coup de main ?"
-    Rejoignez-nous directement sur le Discord de Glooob Domo !
-    [Clique ici pour rejoindre le Discord](https://discord.gg/8w5kVPHeEY)
+    Rejoignez-nous directement sur le Discord de **Glooob Domo** !  
+    [**Clique ici pour rejoindre le Discord**](https://discord.gg/8w5kVPHeEY) 💬
 
+---
 
-> [!NOTE]
-> Si vous utilisez le type d'affichage **Sections**, vous devrez peut-être définir la valeur `rows` à environ `1,5` pour la carte,
-> sinon, la carte pourrait paraître déformée.
-> (À UTILISER UNIQUEMENT EN CAS DE PROBLÈME).
->
-> ```yaml
-> grid_options:
->   rows: 1.5
-> ```
+!!! note "Affichage en mode Sections"
+    Si vous utilisez le type d'affichage **Sections**, vous devrez peut-être définir la valeur `rows` à environ `1.5` pour la carte. Sans cela, la carte pourrait paraître déformée.
+    
+    *(À utiliser uniquement en cas de problème)*.
 
->[!TIP]
->Vous souhaitez modifier la couleur des cartes et du texte (pratique pour ceux qui utilisent le mode clair) ? Ajoutez ce qui suit à `ha-card` et jouez avec les valeurs (rgb, hex, etc.).
->
-```yaml
-background: #1C1C1C !important;
---card-primary-color: white !important;
---card-secondary-color: white !important;
-```
-<hr>
+    ```yaml
+    grid_options:
+      rows: 1.5
+    ```
+
+!!! tip "Personnalisation des couleurs (Mode Clair/Sombre)"
+    Vous souhaitez modifier la couleur des cartes et du texte ? Ajoutez ce bloc dans la partie `ha-card` de votre code et modifiez les valeurs selon vos envies (rgb, hex, etc.).
+
+    ```css
+    background: #1C1C1C !important;
+    --card-primary-color: white !important;
+    --card-secondary-color: white !important;
+    ```
+
+---
 
 [Incendie 🔥](https://github.com/Maxence-Csnt/Carte-Home-Assistant/blob/main/Incendie%20%F0%9F%94%A5) :
 
