@@ -17,7 +17,7 @@ cards:
     tap_action:
       action: more-info
     icon: mdi:water-percent
-    name: Humidity
+    name: Humidité
     primary_info: state
     secondary_info: name
     card_mod:
