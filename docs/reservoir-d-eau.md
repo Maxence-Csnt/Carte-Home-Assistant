@@ -1,6 +1,6 @@
 # Carte Réservoir d'eau 💧
 
-
+<img width="502" height="215" alt="Réservoir d&#39;eau" src="https://github.com/user-attachments/assets/65afa5c7-efb7-4c4a-b9eb-bf2211e2e3ec" />
 
 Voici le code à copier dans ton dashboard Home Assistant :
 
