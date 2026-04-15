@@ -23,7 +23,7 @@ markdown_extensions:
   - pymdownx.superfences
 
 nav:
-  - Accueil: index.md
+  - Accueil: accueil.md
   - 📊 Dashboard: 
       - Présentation: dashboard.md
       - Humidité 💦 (Graphique): humidite (graphique).md
