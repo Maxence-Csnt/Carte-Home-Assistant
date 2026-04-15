@@ -1,43 +1,27 @@
-/* Style des boîtes d'alerte (Admonitions) en mode Apple Glass */
-.admonition {
-    background-color: rgba(255, 255, 255, 0.05) !important; /* Très transparent */
-    backdrop-filter: blur(15px) saturate(170%) !important; /* Flou liquide */
-    -webkit-backdrop-filter: blur(15px) saturate(170%) !important;
-    border: 1px solid rgba(255, 255, 255, 0.15) !important; /* Bordure fine brillante */
-    border-radius: 15px !important;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3) !important;
-}
-
-/* Couleur du titre des boîtes */
-.admonition-title {
-    background-color: rgba(255, 255, 255, 0.1) !important;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
-    font-weight: bold !important;
-}
-
-/* --- POSITIONNEMENT DANS LA ZONE BLEUE --- */
-
-/* On cache la barre d'annonce originale pour la replacer */
-.md-announce {
-    background-color: transparent !important;
-    border: none !important;
-}
-
-/* On injecte le texte de l'annonce dans le header (zone entourée) */
-.md-header__topic::after {
-    content: "🚧 Site en cours de création 🏗️";
-    margin-left: 20px;
-    font-size: 0.8rem;
+/* Ajoute le badge de maintenance uniquement dans le header */
+.md-header__ellipsis::after {
+    content: "🚧 Site en cours";
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 0.7rem;
     font-weight: bold;
-    color: rgba(255, 255, 255, 0.7);
-    padding: 4px 12px;
+    color: rgba(255, 255, 255, 0.9);
+    
+    /* Style Liquide Glace */
     background: rgba(255, 255, 255, 0.1);
-    border-radius: 20px;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    padding: 3px 12px;
+    border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.2);
+    vertical-align: middle;
 }
 
+/* On s'assure que le titre et le badge sont bien alignés */
+.md-header__topic {
+    display: flex !important;
+    align-items: center;
+}
 /* --- STYLE ULTRA LIQUID GLASS (APPLE EL CAPITAN / IOS) --- */
 
 :root {
