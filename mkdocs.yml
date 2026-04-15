@@ -13,7 +13,8 @@ theme:
     - navigation.sections # Garde les titres de sections visibles
     - navigation.expand   # Garde les menus ouverts par défaut
     - content.code.copy
-
+    - announce.dismiss # Permet aux gens de fermer le message avec une petite croix
+  
 plugins:
   - search
 
@@ -41,3 +42,6 @@ nav:
   - 🛠️ Automatisation: 
       - Présentation: automatisation.md
       - Incendie 🔥: incendie.md
+
+extra:
+  announcement: "🚧 Le site est en cours de création. Certaines pages peuvent afficher une erreur 404 le temps de la maintenance. 🏗️"
