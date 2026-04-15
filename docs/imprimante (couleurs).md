@@ -13,7 +13,7 @@ Voici le code à copier dans ton dashboard Home Assistant :
 
 type: custom:mushroom-entity-card
 entity: sensor.brother_printer
-name: Imprimante
+name: Imprimante (COULEURS)
 icon: mdi:empty
 primary_info: name
 secondary_info: state
