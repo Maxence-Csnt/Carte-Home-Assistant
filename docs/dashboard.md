@@ -27,4 +27,4 @@ Pour utiliser ces cartes, assurez-vous d'avoir installé les éléments suivants
 * [**Mushroom Cards**](https://github.com/piitaya/lovelace-mushroom) (Pour les icônes et le style épuré)
 
 !!! tip "TIP"
-    **Toutes les cartes sont compatible en mode sombre comme en mode clair.** 
+    **Toutes les cartes sont compatible en mode sombre comme en mode clair (Sauf indication contraire).** 
