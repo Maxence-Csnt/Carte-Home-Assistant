@@ -1,8 +1,13 @@
 ---
 hide:
-  - navigation # Cache le menu latéral sur cette page
-  - toc        # Cache le sommaire à droite
+  - navigation
+  - toc
 ---
+
+# 🎨 Carte v1-thgraf 🕵️‍♂️
+
+!!! success "Page Trouvée !"
+    Cette page est masquée du menu principal. Vous l'avez trouvée grâce à la recherche ! ✨
 
 
 # ‎v1-thgraf
