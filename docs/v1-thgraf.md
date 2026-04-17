@@ -3,13 +3,13 @@ hide:
   - navigation
   - toc
 search:
-  boost: 2.0  # On donne du poids au code chiffré
+  boost: 5.0
 ---
 
 # 84291
 
-!!! success "Accès Sécurisé"
-    Vous avez entré le code numérique correct. Bienvenue sur la page de la **Version 1**. 🔐
+### 🔐 Contenu de la Version Spéciale
+Vous avez déverrouillé l'accès à la configuration **v1-thgraf**.
 
 ---
 
