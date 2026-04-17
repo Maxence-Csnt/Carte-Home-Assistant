@@ -2,6 +2,8 @@
 hide:
   - navigation
   - toc
+search:
+  boost: 2.0 # Donne la priorité à cette page si le code est tapé
 ---
 
 # 🎨 Carte v1-thgraf 🕵️‍♂️
