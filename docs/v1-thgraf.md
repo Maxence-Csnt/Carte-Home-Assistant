@@ -3,19 +3,13 @@ hide:
   - navigation
   - toc
 search:
-  boost: 0.1
+  boost: 2.0  # On donne du poids au code chiffré
 ---
 
-# ᅠ
+# 84291
 
-<div style="display:none">
-  Code d'accès : &#118;&#49;-thgraf
-</div>
-
-### 🔐 Espace Restreint
-
-!!! success "Code Validé"
-    Félicitations ! Vous avez utilisé le code correct pour accéder à la version graphique. ✨
+!!! success "Accès Sécurisé"
+    Vous avez entré le code numérique correct. Bienvenue sur la page de la **Version 1**. 🔐
 
 ---
 
