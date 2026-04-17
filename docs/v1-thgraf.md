@@ -1,4 +1,4 @@
-# V1
+# ‎v1-thgraf
 
 Salur ThGraf,
 Voici le code à copier dans ton dashboard Home Assistant :
