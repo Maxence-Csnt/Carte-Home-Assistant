@@ -3,15 +3,15 @@ hide:
   - navigation
   - toc
 search:
-  exclude: true  # 🛑 Étape 1 : On dit à la recherche de NE PAS regarder cette page
+  boost: 0.2  # On baisse la priorité pour éviter que "v1" ne le trouve trop vite
 ---
 
-# . 
+# v1-thgraf
 
-<div style="display:none">
-  Ici on met la clé que seul le moteur de recherche pourra indexer via un plugin ou via le titre si on change de tactique.
-</div>
+!!! success "Accès Validé"
+    Vous avez trouvé la page secrète via le code **v1-thgraf**. ✨
 
+---
 ### 🔐 Espace Restreint
 Si vous lisez ceci, c'est que vous avez le lien direct ou le code.
 
