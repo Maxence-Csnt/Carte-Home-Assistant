@@ -8,16 +8,17 @@ search:
 
 # 84291
 
-### 🔐 Contenu de la Version Spéciale
-Vous avez déverrouillé l'accès à la configuration **v1-thgraf**.
+### 🔐 Contenu Spéciale
+Vous avez déverrouillé l'accès à la configuration
 
 ---
 
-Salur ThGraf,
+Bonjour ThGraf,
 Voici le code à copier :
 
 ```yaml
 
 test
+V1 ThGraf
 
 ```
