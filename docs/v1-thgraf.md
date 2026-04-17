@@ -3,13 +3,19 @@ hide:
   - navigation
   - toc
 search:
-  boost: 0.2  # On baisse la priorité pour éviter que "v1" ne le trouve trop vite
+  boost: 0.1
 ---
 
-# v1-thgraf
+# ᅠ
 
-!!! success "Accès Validé"
-    Vous avez trouvé la page secrète via le code **v1-thgraf**. ✨
+<div style="display:none">
+  Code d'accès : &#118;&#49;-thgraf
+</div>
+
+### 🔐 Espace Restreint
+
+!!! success "Code Validé"
+    Félicitations ! Vous avez utilisé le code correct pour accéder à la version graphique. ✨
 
 ---
 
