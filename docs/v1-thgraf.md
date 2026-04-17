@@ -3,14 +3,17 @@ hide:
   - navigation
   - toc
 search:
-  boost: 2.0 # Donne la priorité à cette page si le code est tapé
+  exclude: true # On dit au robot de ne PAS indexer le contenu normal
 ---
 
-# 🎨 Carte v1-thgraf 🕵️‍♂️
+<div style="display:none">v1-thgraf</div>
 
-!!! success "Page Trouvée !"
-    Cette page est masquée du menu principal. Vous l'avez trouvée grâce à la recherche ! ✨
+# .
 
+!!! success "Accès Secret Validé"
+    Félicitations ! Vous avez utilisé le code **v1-thgraf** pour accéder à cette page. ✨
+
+---
 
 # ‎v1-thgraf
 
