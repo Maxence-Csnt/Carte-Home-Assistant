@@ -17,7 +17,7 @@ theme:
     - navigation.sections
     - navigation.expand
     - content.code.copy
-    - announce.dismiss # Active la petite croix pour fermer le bandeau
+    - announce.dismiss
 
 plugins:
   - search
@@ -27,7 +27,7 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
 
-# 2. Le menu de navigation
+# 2. Le menu de navigation (Indentations corrigées ici)
 nav:
   - Accueil: accueil.md
   - 📊 Dashboard: 
@@ -46,10 +46,10 @@ nav:
   - 🛠️ Automatisation: 
       - Présentation: automatisation.md
       - Incendie 🔥: incendie.md
-  - 🎨 Espace créations: espace-creation.md
+  - 🎨 Espace créations:
+      - Présentation: espace-creation.md
       - v1-thgraf: v1-thgraf.md
 
-# 3. Le bandeau d'annonce (IMPORTANT : bien aligné à gauche)
+# 3. Le bandeau d'annonce (Correction des espaces)
 extra:
-  announcement: >
-    🚧 **SITE EN COURS DE CRÉATION**
+  announcement: "🚧 **SITE EN COURS DE CRÉATION** : Merci de votre patience ! 🏗️"
