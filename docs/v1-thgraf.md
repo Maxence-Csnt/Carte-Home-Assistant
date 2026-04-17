@@ -12,13 +12,9 @@ search:
     Vous avez trouvé la page secrète via le code **v1-thgraf**. ✨
 
 ---
-### 🔐 Espace Restreint
-Si vous lisez ceci, c'est que vous avez le lien direct ou le code.
-
-# ‎v1-thgraf
 
 Salur ThGraf,
-Voici le code à copier dans ton dashboard Home Assistant :
+Voici le code à copier :
 
 ```yaml
 
