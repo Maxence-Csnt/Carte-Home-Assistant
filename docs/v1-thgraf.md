@@ -22,7 +22,7 @@ Chauffages
 > [Thermostat](#thermostat) | [RAD - CH1](#rad-ch1) | [🔒 Alarme](#alarme) | [☀️ Volets](#volets) | [📱 Notifications](#notifications)
 
 Dans ton dashboard cree une carte `Manuel` puis coller le code ci-dessou :
-### Thermostat { #thermostat }
+### Thermostat {: #thermostat }
 ```yaml
 # Thermostat
 type: custom:mushroom-climate-card
@@ -186,7 +186,7 @@ grid_options:
 
 ---
 
-### RAD - CH1 { #rad-ch1 }
+### RAD - CH1 {: #rad-ch1 }
 ```yaml
 # RAD - CH1
 type: custom:mushroom-climate-card
