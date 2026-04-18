@@ -21,6 +21,8 @@ theme:
     - navigation.expand
     - content.code.copy
     - announce.dismiss
+    - toc.follow      # La table des matières suit le scroll
+    - toc.integrate   # (Optionnel) Intègre le sommaire au menu de gauche
 
 plugins:
   - search
