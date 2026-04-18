@@ -14,8 +14,8 @@ theme:
     primary: indigo
   features:
     - navigation.top
-    - navigation.tracking
     - navigation.tabs
+    - navigation.tracking
     - navigation.sections
     - navigation.expand
     - content.code.copy
