@@ -14,12 +14,12 @@ theme:
     primary: indigo
   features:
     - navigation.top
+    - navigation.tracking
     - navigation.tabs
     - navigation.sections
     - navigation.expand
     - content.code.copy
     - announce.dismiss
-    - navigation.tracking
 
 plugins:
   - search
