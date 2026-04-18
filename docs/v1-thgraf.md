@@ -25,6 +25,7 @@ Dans ton dashboard cree une carte `Manuel` puis coller le code ci-dessou :
 > ### ⚡ ACCÈS DIRECT AU CODE
 > [A/C - Véranda](#ac-veranda) | [A/C - CH1](#ac-ch1) | [A/C - CH2](#ac-ch2) | [A/C - CH3](#ac-ch3) | [A/C - CH4](#ac-ch4) | [A/C - CH5](#ac-ch5) |
 
+---
 
 ### Thermostat {: #thermostat }
 ```yaml
