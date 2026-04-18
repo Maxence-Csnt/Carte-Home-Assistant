@@ -26,11 +26,15 @@ Bienvenue dans l'espace dédié aux designs de cartes ! Vous trouverez ici les c
 ### 🛠️ Prérequis Généraux
 Pour utiliser ces cartes, assurez-vous d'avoir installé les éléments suivants via **HACS** :
 
-* [**button-card**](https://github.com/custom-cards/button-card) (Indispensable pour le design)
-* [**card-mod**](https://github.com/thomasloven/lovelace-card-mod) (Pour les personnalisations CSS)
-* [**Mushroom Cards**](https://github.com/piitaya/lovelace-mushroom) (Pour les icônes et le style épuré)
-* [**vertical stack In Card**](https://github.com/ofekashery/vertical-stack-in-card)
-* [**Mini graph card**](https://github.com/kalkih/mini-graph-card)
+* [**button-card**](https://github.com/custom-cards/button-card) Le moteur principal pour le design et les animations.
+* [**card-mod**](https://github.com/thomasloven/lovelace-card-mod) Indispensable pour les effets (CSS).
+* [**Mushroom Cards**](https://github.com/piitaya/lovelace-mushroom) Pour des icônes et un style moderne épuré.
+* [**vertical stack In Card**](https://github.com/ofekashery/vertical-stack-in-card) Pour grouper vos cartes sans bordures visibles.
+* [**Mini graph card**](https://github.com/kalkih/mini-graph-card) Pour des graphiques compacts et stylés.
+
+!!! info "Astuce"
+Après l'installation, faites CTRL + F5 pour actualiser le cache. 🔄✨
+
 
 !!! tip "TIP"
     **Toutes les cartes sont compatible en mode sombre comme en mode clair (Sauf indication contraire).** 
