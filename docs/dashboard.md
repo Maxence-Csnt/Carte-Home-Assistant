@@ -33,7 +33,7 @@ Pour utiliser ces cartes, assurez-vous d'avoir installé les éléments suivants
 * [**Mini graph card**](https://github.com/kalkih/mini-graph-card) Pour des graphiques compacts et stylés.
 
 !!! info "Astuce"
-Après l'installation, faites CTRL + F5 pour actualiser le cache. 🔄✨
+Après l'installation, faites **CTRL + F5** pour actualiser le cache. 🔄✨
 
 
 !!! tip "TIP"
