@@ -14,7 +14,8 @@ Vous avez déverrouillé l'accès à la configuration
 ---
 
 Bonjour ThGraf,
-Voici le code à copier :
+Voici le code à copier : 
+
 Chauffages
 
 ```yaml
