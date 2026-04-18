@@ -19,6 +19,7 @@ theme:
     - navigation.expand
     - content.code.copy
     - announce.dismiss
+    - navigation.tracking
 
 plugins:
   - search
