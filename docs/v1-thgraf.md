@@ -18,7 +18,10 @@ Voici le code à copier :
 
 Chauffages
 
-Dans ton dashboard cree une carte `Manuel` puis coller le code ci-dessou
+> ### ⚡ ACCÈS DIRECT AU CODE
+> [Thermostat](#thermostat) | [RAD - CH1](#RAD---CH1) | [🔒 Alarme](#alarme) | [☀️ Volets](#volets) | [📱 Notifications](#notifications)
+
+Dans ton dashboard cree une carte `Manuel` puis coller le code ci-dessou :
 ### Thermostat
 ```yaml
 # Thermostat
