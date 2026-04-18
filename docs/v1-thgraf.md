@@ -19,7 +19,7 @@ Voici le code à copier :
 Chauffages
 
 > ### ⚡ ACCÈS DIRECT AU CODE
-> [Thermostat](#thermostat) | [RAD - CH1](#RAD---CH1) | [🔒 Alarme](#alarme) | [☀️ Volets](#volets) | [📱 Notifications](#notifications)
+> [Thermostat](#thermostat) | [RAD - CH1](#rad-ch1) | [🔒 Alarme](#alarme) | [☀️ Volets](#volets) | [📱 Notifications](#notifications)
 
 Dans ton dashboard cree une carte `Manuel` puis coller le code ci-dessou :
 ### Thermostat
