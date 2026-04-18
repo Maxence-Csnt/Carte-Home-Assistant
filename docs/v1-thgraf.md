@@ -175,6 +175,6 @@ card_mod:
         clip-path: inset(0 0 0 0 round var(--ha-card-border-radius, 12px));
       }
 grid_options:
-  columns: 12
+  columns: 6
   rows: 2
 ```
