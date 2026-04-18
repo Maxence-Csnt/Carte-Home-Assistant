@@ -18,6 +18,7 @@ Voici le code à copier :
 
 Chauffages
 
+Dans ton dashboard cree une carte `Manuel` puis coller le code ci-dessou
 ```yaml
 type: custom:mushroom-climate-card
 entity: climate.rad_thermostatprincipal
