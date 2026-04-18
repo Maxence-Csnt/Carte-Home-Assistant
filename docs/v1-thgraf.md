@@ -20,6 +20,7 @@ Chauffages
 
 Dans ton dashboard cree une carte `Manuel` puis coller le code ci-dessou
 ```yaml
+# Thermostat
 type: custom:mushroom-climate-card
 entity: climate.rad_thermostatprincipal
 collapsible_controls: false
