@@ -28,6 +28,7 @@ plugins:
   - search
 
 markdown_extensions:
+  - attr_list      # 👈 AJOUTE CETTE LIGNE
   - admonition
   - pymdownx.details
   - pymdownx.superfences
