@@ -23,14 +23,13 @@ theme:
 
 plugins:
   - search
-  - share
 
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
 
-# 2. Le menu de navigation (Indentations corrigées ici)
+# 2. Le menu de navigation
 nav:
   - Accueil: accueil.md
   - 📊 Dashboard: 
@@ -52,6 +51,6 @@ nav:
   - 🎨 Espace créations:
       - Présentation: espace-creation.md
 
-# 3. Le bandeau d'annonce (Correction des espaces)
+# 3. Le bandeau d'annonce
 extra:
   announcement: "🚧 **SITE EN COURS DE CRÉATION** : Merci de votre patience ! 🏗️"
