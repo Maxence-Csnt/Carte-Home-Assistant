@@ -23,6 +23,14 @@ Bienvenue dans l'espace dédié aux designs de cartes ! Vous trouverez ici les c
 
 ---
 
+### 🎨 Réglage du Thème (Crucial)
+!!! danger "Attention : Ne pas utiliser de thème"
+    Pour que l'effet Liquid Glass et les transparences fonctionnent, vous ne devez appliquer aucun thème sur votre page ou votre profil.
+    > Réglage requis : Sélectionnez "Home Assistant" ou "Utiliser le thème par défaut" dans vos paramètres.
+    > Pourquoi ? Les thèmes tiers bloquent les modifications CSS de card-mod et cassent le design visuel des cartes.
+
+---
+
 ### 🛠️ Prérequis Généraux
 Pour utiliser ces cartes, assurez-vous d'avoir installé les éléments suivants via **HACS** :
 
