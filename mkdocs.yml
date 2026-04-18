@@ -23,7 +23,6 @@ theme:
 
 plugins:
   - search
-  - thumbnails
   - share
 
 markdown_extensions:
