@@ -25,13 +25,11 @@ collapsible_controls: false
 show_temperature_control: true
 fill_container: false
 hvac_modes:
-  - auto
-  - heat_cool
-  - cool
-  - heat
-  - dry
-  - fan_only
-  - "off"
+  - Off
+  - Planning #(ou mode par défaut)
+  - Absent
+  - Hors Gel
+  - Boost
 name: Thermostat
 card_mod:
   style:
