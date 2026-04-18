@@ -15,13 +15,17 @@ Vous avez déverrouillé l'accès à la configuration
 
 Bonjour ThGraf,
 Voici le code à copier : 
-
-Chauffages
-
-> ### ⚡ ACCÈS DIRECT AU CODE
-> [Thermostat](#thermostat) | [RAD - CH1](#rad-ch1) | [RAD - CH2](#rad-ch2) | [RAD - CH3](#rad-ch3) | [📱 Notifications](#notifications)
-
 Dans ton dashboard cree une carte `Manuel` puis coller le code ci-dessou :
+
+## Chauffages :
+> ### ⚡ ACCÈS DIRECT AU CODE
+> [Thermostat](#thermostat) | [RAD - CH1](#rad-ch1) | [RAD - CH2](#rad-ch2) | [RAD - CH3](#rad-ch3) | [RAD - CH4](#rad-ch4) | [RAD - CH5](#rad-ch5) |
+
+## A/C :
+> ### ⚡ ACCÈS DIRECT AU CODE
+> [A/C - Véranda](#ac-veranda) | [A/C - CH1](#ac-ch1) | [A/C - CH2](#ac-ch2) | [A/C - CH3](#ac-ch3) | [A/C - CH4](#ac-ch4) | [A/C - CH5](#ac-ch5) |
+
+
 ### Thermostat {: #thermostat }
 ```yaml
 # Thermostat
