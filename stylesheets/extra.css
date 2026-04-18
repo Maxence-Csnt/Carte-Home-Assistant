@@ -1,0 +1,73 @@
+/* --- STYLE DES BOITES (ADMONITIONS) --- */
+/* Pour que tes blocs sur l'accueil soient aussi en verre */
+.admonition {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    backdrop-filter: blur(20px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 15px !important;
+}
+
+
+/* --- STYLE ULTRA LIQUID GLASS (APPLE EL CAPITAN / IOS) --- */
+
+:root {
+    --glass-bg: rgba(255, 255, 255, 0.07);
+    --glass-border: rgba(255, 255, 255, 0.15);
+    --md-primary-fg-color: transparent !important; /* On rend la couleur de base invisible pour voir le verre */
+}
+
+/* LA BANNIÈRE D'ANNONCE (Zone rouge de ta photo) */
+.md-announce {
+    background-color: rgba(63, 81, 181, 0.2) !important;
+    backdrop-filter: blur(25px) saturate(200%);
+    -webkit-backdrop-filter: blur(25px) saturate(200%);
+    border-bottom: 1px solid var(--glass-border);
+    color: #ffffff !important;
+    font-size: 0.9rem;
+}
+
+/* LE HEADER (Barre de recherche et titre) */
+.md-header {
+    background-color: rgba(20, 20, 25, 0.6) !important;
+    backdrop-filter: blur(30px) saturate(150%);
+    -webkit-backdrop-filter: blur(30px) saturate(150%);
+    border-bottom: 1px solid var(--glass-border);
+}
+
+/* LES ONGLETS (Accueil, Dashboard...) */
+.md-tabs {
+    background-color: rgba(20, 20, 25, 0.4) !important;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+
+/* EFFET VERRE SUR LES BOÎTES (Admonitions) */
+.admonition {
+    background-color: var(--glass-bg) !important;
+    backdrop-filter: blur(15px) saturate(180%);
+    -webkit-backdrop-filter: blur(15px) saturate(180%);
+    border: 1px solid var(--glass-border) !important;
+    border-radius: 18px !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    margin: 1.5em 0;
+}
+
+/* BLOCS DE CODE EN VERRE SOMBRE */
+.md-typeset pre {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 12px !important;
+}
+
+/* FOND DU SITE POUR FAIRE RESSORTIR LE VERRE */
+body {
+    background: linear-gradient(135deg, #0f0f1a 0%, #1a1a2e 100%) !important;
+    background-attachment: fixed;
+}
+
+/* Petit reflet sur le dessus des boutons */
+.md-announce__inner {
+    padding: 10px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}

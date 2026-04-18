@@ -1,0 +1,1329 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://maxence-csnt.github.io/Carte-Home-Assistant/eclairement.html">
+      
+      
+        <link rel="prev" href="detecteur-de-mouvement.html">
+      
+      
+        <link rel="next" href="sonnette.html">
+      
+      
+        
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Éclairement ☀️ - Mes Cartes HA 🏠</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="stylesheets/extra.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#carte-eclairement" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href="." title="Mes Cartes HA 🏠" class="md-header__button md-logo" aria-label="Mes Cartes HA 🏠" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Mes Cartes HA 🏠
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Éclairement ☀️
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Recherche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initialisation de la recherche
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Onglets" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="accueil.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Accueil
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="dashboard.html" class="md-tabs__link">
+          
+  
+  
+  📊 Dashboard
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="automatisation.html" class="md-tabs__link">
+          
+  
+  
+  🛠️ Automatisation
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="espace-creation.html" class="md-tabs__link">
+          
+  
+  
+  🎨 Espace créations
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Mes Cartes HA 🏠" class="md-nav__button md-logo" aria-label="Mes Cartes HA 🏠" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Mes Cartes HA 🏠
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="accueil.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Accueil
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📊 Dashboard
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    📊 Dashboard
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="dashboard.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Présentation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="humidite%20%28graphique%29.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Humidité 💦 (Graphique)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="humidite.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Humidité 💦
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="boite-aux-lettres.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Boîte aux lettres 📬
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="temperature%20%28graphique%29.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Température 🌡️ (Graphique)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="temperature.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Température 🌡️
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="imprimante%20%28noir%20%26%20blanc%29.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Imprimante 🖨️ (NOIR & BLANC)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="reservoir-d-eau.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Réservoir à Eau 💧
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="contact%20%28porte%29.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contact 🚪 (Porte)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="detecteur-de-mouvement.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Détecteur de mouvement 💨
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="eclairement.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Éclairement ☀️
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="sonnette.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sonnette 🔔
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🛠️ Automatisation
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    🛠️ Automatisation
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="automatisation.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Présentation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="incendie.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Incendie 🔥
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🎨 Espace créations
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    🎨 Espace créations
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="espace-creation.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Présentation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="carte-eclairement">Carte Éclairement ☀️</h1>
+<p><img width="516" height="100" alt="Éclairement" src="https://github.com/user-attachments/assets/253cabb7-75cd-4904-98e8-4b1cbfdc4c35" /></p>
+<p>Voici le code à copier dans ton dashboard Home Assistant :</p>
+<div class="highlight"><pre><span></span><code><span class="c1">#——————————————————</span>
+<span class="c1"># Crée par Anas Box modifier par Maxence_Csnt</span>
+<span class="c1"># Carte Éclairement</span>
+<span class="c1"># Support : https://discord.gg/s6cZ7Swhh7</span>
+<span class="c1">#——————————————————</span>
+
+<span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">custom:mushroom-entity-card</span>
+<span class="nt">entity</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">sensor.detecteur_de_mouvement_illuminance</span>
+<span class="nt">tap_action</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">action</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">more-info</span>
+<span class="nt">icon</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">mdi:brightness-5</span>
+<span class="nt">primary_info</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">state</span>
+<span class="nt">secondary_info</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">name</span>
+<span class="nt">grid_options</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">columns</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">12</span>
+<span class="w">  </span><span class="nt">rows</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1.25</span>
+<span class="nt">card_mod</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">style</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">mushroom-shape-icon$</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">|</span>
+<span class="w">      </span><span class="no">.shape {</span>
+<span class="w">        </span><span class="no">{# ========== CONFIG ========== #}</span>
+<span class="w">        </span><span class="no">{% set lux = states(&#39;sensor.detecteur_de_mouvement_illuminance&#39;) | float(0) %}</span>
+
+<span class="w">        </span><span class="no">{# ------------------------------------------- #}</span>
+<span class="w">        </span><span class="no">{# LIGHT LEVEL → COLOR + EFFECT PRESETS        #}</span>
+<span class="w">        </span><span class="no">{# ------------------------------------------- #}</span>
+
+<span class="w">        </span><span class="no">{# DEFAULTS (will be overridden by ranges) #}</span>
+<span class="w">        </span><span class="no">{% set rgb = &#39;40,80,255&#39; %}</span>
+<span class="w">        </span><span class="no">{% set anim = &#39;lux-dark-breathe&#39; %}</span>
+<span class="w">        </span><span class="no">{% set glow_anim = &#39;lux-dark-glow&#39; %}</span>
+<span class="w">        </span><span class="no">{% set halo_anim = &#39;lux-dark-halo&#39; %}</span>
+<span class="w">        </span><span class="no">{% set duration = 4.0 %}</span>
+<span class="w">        </span><span class="no">{% set intensity = 0.5 %}</span>
+
+<span class="w">        </span><span class="no">{# YOUR RANGES / COLORS #####</span>
+<span class="w">           </span><span class="no">&lt; 10      -&gt; deep blue (very dark)</span>
+<span class="w">           </span><span class="no">10 - &lt;50  -&gt; purple (dim)</span>
+<span class="w">           </span><span class="no">50 - &lt;200 -&gt; soft yellow (normal)</span>
+<span class="w">           </span><span class="no">200 - &lt;500 -&gt; warm orange (bright)</span>
+<span class="w">           </span><span class="no">&gt;= 500    -&gt; near white (very bright)</span>
+<span class="w">        </span><span class="no">########################## #}</span>
+
+<span class="w">        </span><span class="no">{# RANGES / COLORS #}</span>
+<span class="w">        </span><span class="no">{# You can change aqi number below if needed #}</span>
+
+<span class="w">        </span><span class="no">{% if lux &lt; 10 %}</span>
+<span class="w">          </span><span class="no">{# DEEP BLUE - VERY DARK #}</span>
+<span class="w">          </span><span class="no">{% set rgb = &#39;40,80,255&#39; %}</span>
+<span class="w">          </span><span class="no">{% set anim = &#39;lux-dark-breathe&#39; %}</span>
+<span class="w">          </span><span class="no">{% set glow_anim = &#39;lux-dark-glow&#39; %}</span>
+<span class="w">          </span><span class="no">{% set halo_anim = &#39;lux-dark-halo&#39; %}</span>
+<span class="w">          </span><span class="no">{% set duration = 4.4 %}</span>
+<span class="w">          </span><span class="no">{% set intensity = 0.4 %}</span>
+
+<span class="w">        </span><span class="no">{% elif lux &lt; 50 %}</span>
+<span class="w">          </span><span class="no">{# PURPLE - DIM #}</span>
+<span class="w">          </span><span class="no">{% set rgb = &#39;140,80,220&#39; %}</span>
+<span class="w">          </span><span class="no">{% set anim = &#39;lux-dim-wave&#39; %}</span>
+<span class="w">          </span><span class="no">{% set glow_anim = &#39;lux-dim-glow&#39; %}</span>
+<span class="w">          </span><span class="no">{% set halo_anim = &#39;lux-dim-halo&#39; %}</span>
+<span class="w">          </span><span class="no">{% set duration = 3.6 %}</span>
+<span class="w">          </span><span class="no">{% set intensity = 0.55 %}</span>
+
+<span class="w">        </span><span class="no">{% elif lux &lt; 200 %}</span>
+<span class="w">          </span><span class="no">{# SOFT YELLOW - COMFY #}</span>
+<span class="w">          </span><span class="no">{% set rgb = &#39;255,210,80&#39; %}</span>
+<span class="w">          </span><span class="no">{% set anim = &#39;lux-comfy-breathe&#39; %}</span>
+<span class="w">          </span><span class="no">{% set glow_anim = &#39;lux-comfy-glow&#39; %}</span>
+<span class="w">          </span><span class="no">{% set halo_anim = &#39;lux-comfy-halo&#39; %}</span>
+<span class="w">          </span><span class="no">{% set duration = 3.0 %}</span>
+<span class="w">          </span><span class="no">{% set intensity = 0.6 %}</span>
+
+<span class="w">        </span><span class="no">{% elif lux &lt; 500 %}</span>
+<span class="w">          </span><span class="no">{# WARM ORANGE - BRIGHT #}</span>
+<span class="w">          </span><span class="no">{% set rgb = &#39;255,160,60&#39; %}</span>
+<span class="w">          </span><span class="no">{% set anim = &#39;lux-bright-pulse&#39; %}</span>
+<span class="w">          </span><span class="no">{% set glow_anim = &#39;lux-bright-glow&#39; %}</span>
+<span class="w">          </span><span class="no">{% set halo_anim = &#39;lux-bright-halo&#39; %}</span>
+<span class="w">          </span><span class="no">{% set duration = 2.6 %}</span>
+<span class="w">          </span><span class="no">{% set intensity = 0.8 %}</span>
+
+<span class="w">        </span><span class="no">{% else %}</span>
+<span class="w">          </span><span class="no">{# NEAR WHITE - VERY BRIGHT #}</span>
+<span class="w">          </span><span class="no">{% set rgb = &#39;255,250,230&#39; %}</span>
+<span class="w">          </span><span class="no">{% set anim = &#39;lux-sun-shimmer&#39; %}</span>
+<span class="w">          </span><span class="no">{% set glow_anim = &#39;lux-sun-glow&#39; %}</span>
+<span class="w">          </span><span class="no">{% set halo_anim = &#39;lux-sun-halo&#39; %}</span>
+<span class="w">          </span><span class="no">{% set duration = 2.0 %}</span>
+<span class="w">          </span><span class="no">{% set intensity = 1.0 %}</span>
+<span class="w">        </span><span class="no">{% endif %}</span>
+
+<span class="w">        </span><span class="no">{# Apply variables #}</span>
+<span class="w">        </span><span class="no">--lux-rgb: {{ rgb }};</span>
+<span class="w">        </span><span class="no">--lux-intensity: {{ intensity }};</span>
+<span class="w">        </span><span class="no">--shape-animation: {{ anim }} {{ duration }}s ease-in-out infinite;</span>
+<span class="w">        </span><span class="no">--lux-glow-animation: {{ glow_anim }} {{ (duration * 0.9) | round(2) }}s ease-in-out infinite;</span>
+<span class="w">        </span><span class="no">--lux-halo-animation: {{ halo_anim }} {{ (duration * 1.15) | round(2) }}s ease-in-out infinite;</span>
+
+<span class="w">        </span><span class="no">opacity: 1;</span>
+
+<span class="w">        </span><span class="no">/* Icon color follows the light level */</span>
+<span class="w">        </span><span class="no">--icon-color: rgba({{ rgb }}, 1);</span>
+
+<span class="w">        </span><span class="no">/* Neutral base for the shape */</span>
+<span class="w">        </span><span class="no">background-color: rgba(77, 77, 77, 0.1) !important;</span>
+<span class="w">        </span><span class="no">box-shadow: none !important;</span>
+<span class="w">        </span><span class="no">border: 1px solid rgba(255, 255, 255, 0.06);</span>
+
+<span class="w">        </span><span class="no">position: relative;</span>
+<span class="w">        </span><span class="no">transform-origin: 50% 60%;</span>
+<span class="w">        </span><span class="no">animation: var(--shape-animation);</span>
+<span class="w">      </span><span class="no">}</span>
+
+<span class="w">      </span><span class="no">/* Glow layers */</span>
+<span class="w">      </span><span class="no">.shape::before,</span>
+<span class="w">      </span><span class="no">.shape::after {</span>
+<span class="w">        </span><span class="no">content: &#39;&#39;;</span>
+<span class="w">        </span><span class="no">position: absolute;</span>
+<span class="w">        </span><span class="no">border-radius: inherit;</span>
+<span class="w">        </span><span class="no">pointer-events: none;</span>
+<span class="w">      </span><span class="no">}</span>
+
+<span class="w">      </span><span class="no">.shape::before {</span>
+<span class="w">        </span><span class="no">inset: -8px;</span>
+<span class="w">        </span><span class="no">animation: var(--lux-glow-animation);</span>
+<span class="w">      </span><span class="no">}</span>
+
+<span class="w">      </span><span class="no">.shape::after {</span>
+<span class="w">        </span><span class="no">inset: -22px;</span>
+<span class="w">        </span><span class="no">animation: var(--lux-halo-animation);</span>
+<span class="w">        </span><span class="no">mix-blend-mode: screen;</span>
+<span class="w">      </span><span class="no">}</span>
+
+<span class="w">      </span><span class="no">/* ========== DARK ========== */</span>
+<span class="w">      </span><span class="no">@keyframes lux-dark-breathe {</span>
+<span class="w">        </span><span class="no">0%   { transform: scale(0.96); }</span>
+<span class="w">        </span><span class="no">50%  { transform: scale(1.03); }</span>
+<span class="w">        </span><span class="no">100% { transform: scale(0.96); }</span>
+<span class="w">      </span><span class="no">}</span>
+
+<span class="w">      </span><span class="no">@keyframes lux-dark-glow {</span>
+<span class="w">        </span><span class="no">0% {</span>
+<span class="w">          </span><span class="no">box-shadow:</span>
+<span class="w">            </span><span class="no">0 0 20px 0 rgba(var(--lux-rgb), 0.6),</span>
+<span class="w">            </span><span class="no">0 0 34px 6 rgba(var(--lux-rgb), 0.55);</span>
+<span class="w">        </span><span class="no">}</span>
+<span class="w">        </span><span class="no">50% {</span>
+<span class="w">          </span><span class="no">box-shadow:</span>
+<span class="w">            </span><span class="no">0 0 30px 4 rgba(var(--lux-rgb), 0.95),</span>
+<span class="w">            </span><span class="no">0 0 50px 10px rgba(var(--lux-rgb), 0.85);</span>
+<span class="w">        </span><span class="no">}</span>
+<span class="w">        </span><span class="no">100% {</span>
+<span class="w">          </span><span class="no">box-shadow:</span>
+<span class="w">            </span><span class="no">0 0 20px 0 rgba(var(--lux-rgb), 0.6),</span>
+<span class="w">            </span><span class="no">0 0 34px 6 rgba(var(--lux-rgb), 0.55);</span>
+<span class="w">        </span><span class="no">}</span>
+<span class="w">      </span><span class="no">}</span>
+
+<span class="w">      </span><span class="no">@keyframes lux-dark-halo {</span>
+<span class="w">        </span><span class="no">0% {</span>
+<span class="w">          </span><span class="no">box-shadow:</span>
+<span class="w">            </span><span class="no">0 0 80px 20px rgba(var(--lux-rgb), 0.35),</span>
+<span class="w">            </span><span class="no">0 -20px 80px -14px rgba(220, 240, 255, 0.55);</span>
+<span class="w">        </span><span class="no">}</span>
+<span class="w">        </span><span class="no">50% {</span>
+<span class="w">          </span><span class="no">box-shadow:</span>
+<span class="w">            </span><span class="no">0 0 130px 36px rgba(var(--lux-rgb), 0.5),</span>
+<span class="w">            </span><span class="no">0 -34px 100px -8px rgba(240, 250, 255, 0.8);</span>
+<span class="w">        </span><span class="no">}</span>
+<span class="w">        </span><span class="no">100% {</span>
+<span class="w">          </span><span class="no">box-shadow:</span>
+<span class="w">            </span><span class="no">0 0 80px 20px rgba(var(--lux-rgb), 0.35),</span>
+<span class="w">            </span><span class="no">0 -20px 80px -14px rgba(220, 240, 255, 0.55);</span>
+<span class="w">        </span><span class="no">}</span>
+<span class="w">      </span><span class="no">}</span>
+
+<span class="w">      </span><span class="no">/* ========== DIM ========== */</span>
+<span class="w">      </span><span class="no">@keyframes lux-dim-wave {</span>
+<span class="w">        </span><span class="no">0%   { transform: translateX(0); }</span>
+<span class="w">        </span><span class="no">25%  { transform: translateX(-1px); }</span>
+<span class="w">        </span><span class="no">50%  { transform: translateX(1px) translateY(-1px); }</span>
+<span class="w">        </span><span class="no">75%  { transform: translateX(-1px); }</span>
+<span class="w">        </span><span class="no">100% { transform: translateX(0); }</span>
+<span class="w">      </span><span class="no">}</span>
+
+<span class="w">      </span><span class="no">@keyframes lux-dim-glow {</span>
+<span class="w">        </span><span class="no">0% {</span>
+<span class="w">          </span><span class="no">box-shadow:</span>
+<span class="w">            </span><span class="no">0 0 22px 0 rgba(var(--lux-rgb), 0.6),</span>
+<span class="w">            </span><span class="no">0 0 34px 4 rgba(var(--lux-rgb), 0.7);</span>
+<span class="w">        </span><span class="no">}</span>
+<span class="w">        </span><span class="no">50% {</span>
+<span class="w">          </span><span class="no">box-shadow:</span>
+<span class="w">            </span><span class="no">0 0 28px 2 rgba(var(--lux-rgb), 0.95),</span>
+<span class="w">            </span><span class="no">0 0 48px 12px rgba(var(--lux-rgb), 0.85);</span>
+<span class="w">        </span><span class="no">}</span>
+<span class="w">        </span><span class="no">100% {</span>
+<span class="w">          </span><span class="no">box-shadow:</span>
+<span class="w">            </span><span class="no">0 0 22px 0 rgba(var(--lux-rgb), 0.6),</span>
+<span class="w">            </span><span class="no">0 0 34px 4 rgba(var(--lux-rgb), 0.7);</span>
+<span class="w">        </span><span class="no">}</span>
+<span class="w">      </span><span class="no">}</span>
+
+<span class="w">      </span><span class="no">@keyframes lux-dim-halo {</span>
+<span class="w">        </span><span class="no">0% {</span>
+<span class="w">          </span><span class="no">box-shadow:</span>
+<span class="w">            </span><span class="no">0 0 90px 26px rgba(var(--lux-rgb), 0.35),</span>
+<span class="w">            </span><span class="no">0 18px 80px -12px rgba(0, 220, 255, 0.35);</span>
+<span class="w">        </span><span class="no">}</span>
+<span class="w">        </span><span class="no">50% {</span>
+<span class="w">          </span><span class="no">box-shadow:</span>
+<span class="w">            </span><span class="no">0 0 140px 42px rgba(var(--lux-rgb), 0.45),</span>
+<span class="w">            </span><span class="no">0 30px 110px -10px rgba(0, 255, 255, 0.5);</span>
+<span class="w">        </span><span class="no">}</span>
+<span class="w">        </span><span class="no">100% {</span>
+<span class="w">          </span><span class="no">box-shadow:</span>
+<span class="w">            </span><span class="no">0 0 90px 26px rgba(var(--lux-rgb), 0.35),</span>
+<span class="w">            </span><span class="no">0 18px 80px -12px rgba(0, 220, 255, 0.35);</span>
+<span class="w">        </span><span class="no">}</span>
+<span class="w">      </span><span class="no">}</span>
+
+<span class="w">      </span><span class="no">/* ========== COMFY ========== */</span>
+<span class="w">      </span><span class="no">@keyframes lux-comfy-breathe {</span>
+<span class="w">        </span><span class="no">0%   { transform: scale(0.98); }</span>
+<span class="w">        </span><span class="no">50%  { transform: scale(1.05); }</span>
+<span class="w">        </span><span class="no">100% { transform: scale(0.98); }</span>
+<span class="w">      </span><span class="no">}</span>
+
+<span class="w">      </span><span class="no">@keyframes lux-comfy-glow {</span>
+<span class="w">        </span><span class="no">50% {</span>
+<span class="w">          </span><span class="no">box-shadow:</span>
+<span class="w">            </span><span class="no">0 0 26px 4 rgba(var(--lux-rgb), 0.9),</span>
+<span class="w">            </span><span class="no">0 0 42px 10px rgba(var(--lux-rgb), 0.85);</span>
+<span class="w">        </span><span class="no">}</span>
+<span class="w">      </span><span class="no">}</span>
+
+<span class="w">      </span><span class="no">@keyframes lux-comfy-halo {</span>
+<span class="w">        </span><span class="no">50% {</span>
+<span class="w">          </span><span class="no">box-shadow:</span>
+<span class="w">            </span><span class="no">0 0 120px 40px rgba(var(--lux-rgb), 0.45),</span>
+<span class="w">            </span><span class="no">0 26px 80px -10px rgba(180, 255, 200, 0.5);</span>
+<span class="w">        </span><span class="no">}</span>
+<span class="w">      </span><span class="no">}</span>
+
+<span class="w">      </span><span class="no">/* ========== BRIGHT ========== */</span>
+<span class="w">      </span><span class="no">@keyframes lux-bright-pulse {</span>
+<span class="w">        </span><span class="no">0%   { transform: scale(1); }</span>
+<span class="w">        </span><span class="no">50%  { transform: scale(1.07); }</span>
+<span class="w">        </span><span class="no">100% { transform: scale(1); }</span>
+<span class="w">      </span><span class="no">}</span>
+
+<span class="w">      </span><span class="no">@keyframes lux-bright-glow {</span>
+<span class="w">        </span><span class="no">50% {</span>
+<span class="w">          </span><span class="no">box-shadow:</span>
+<span class="w">            </span><span class="no">0 0 30px 4 rgba(var(--lux-rgb), 0.95),</span>
+<span class="w">            </span><span class="no">0 0 54px 14px rgba(var(--lux-rgb), 0.9);</span>
+<span class="w">        </span><span class="no">}</span>
+<span class="w">      </span><span class="no">}</span>
+
+<span class="w">      </span><span class="no">@keyframes lux-bright-halo {</span>
+<span class="w">        </span><span class="no">50% {</span>
+<span class="w">          </span><span class="no">box-shadow:</span>
+<span class="w">            </span><span class="no">0 0 140px 48px rgba(var(--lux-rgb), 0.55),</span>
+<span class="w">            </span><span class="no">0 26px 100px -10px rgba(255, 210, 150, 0.5);</span>
+<span class="w">        </span><span class="no">}</span>
+<span class="w">      </span><span class="no">}</span>
+
+<span class="w">      </span><span class="no">/* ========== VERY BRIGHT / SUN ========== */</span>
+<span class="w">      </span><span class="no">@keyframes lux-sun-shimmer {</span>
+<span class="w">        </span><span class="no">0%   { transform: scale(1); filter: blur(0); }</span>
+<span class="w">        </span><span class="no">50%  { transform: scale(1.08); filter: blur(0.6px); }</span>
+<span class="w">        </span><span class="no">100% { transform: scale(1); filter: blur(0); }</span>
+<span class="w">      </span><span class="no">}</span>
+
+<span class="w">      </span><span class="no">@keyframes lux-sun-glow {</span>
+<span class="w">        </span><span class="no">50% {</span>
+<span class="w">          </span><span class="no">box-shadow:</span>
+<span class="w">            </span><span class="no">0 0 34px 6 rgba(var(--lux-rgb), 1),</span>
+<span class="w">            </span><span class="no">0 0 62px 14px rgba(var(--lux-rgb), 0.95);</span>
+<span class="w">        </span><span class="no">}</span>
+<span class="w">      </span><span class="no">}</span>
+
+<span class="w">      </span><span class="no">@keyframes lux-sun-halo {</span>
+<span class="w">        </span><span class="no">50% {</span>
+<span class="w">          </span><span class="no">box-shadow:</span>
+<span class="w">            </span><span class="no">0 0 160px 60px rgba(var(--lux-rgb), 0.6),</span>
+<span class="w">            </span><span class="no">0 34px 120px -12px rgba(255, 230, 180, 0.6);</span>
+<span class="w">        </span><span class="no">}</span>
+<span class="w">      </span><span class="no">}</span>
+<span class="w">    </span><span class="nt">.</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">|</span>
+<span class="w">      </span><span class="no">mushroom-shape-icon {</span>
+<span class="w">        </span><span class="no">--icon-size: 64px;</span>
+<span class="w">        </span><span class="no">display: flex;</span>
+<span class="w">        </span><span class="no">margin: -18px 0 10px -20px !important;</span>
+<span class="w">        </span><span class="no">padding-right: 22px;</span>
+<span class="w">        </span><span class="no">padding-bottom: 10px;</span>
+<span class="w">      </span><span class="no">}</span>
+<span class="w">      </span><span class="no">ha-card {</span>
+<span class="w">        </span><span class="no">clip-path: inset(0 0 0 0 round var(--ha-card-border-radius, 14px));</span>
+
+<span class="w">        </span><span class="no">/* FONT SIZE &amp; SPACING SETTINGS */</span>
+<span class="w">        </span><span class="no">--card-primary-font-size: 1.5rem !important;</span>
+
+<span class="w">        </span><span class="no">/* Increases vertical space between primary and secondary */</span>
+<span class="w">        </span><span class="no">--card-primary-line-height: 1.3 !important;</span>
+<span class="w">      </span><span class="no">}</span>
+</code></pre></div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Retour en haut de la page
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.top", "header.autohide", "navigation.tabs", "navigation.tracking", "navigation.sections", "navigation.expand", "content.code.copy", "announce.dismiss", "toc.follow", "toc.integrate"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
